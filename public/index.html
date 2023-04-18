@@ -10,6 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,9 +25,45 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Gajraj+One&family=Lobster&family=Oswald&family=Pacifico&family=Philosopher:ital,wght@1,700&family=Satisfy&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <title>Todo App</title>
+    
   </head>
   <body>
+    <style>
+      body{
+        /* background: linear-gradient(to right, #8e2de2, #4a00e0); */
+        background-color: #0faca6;
+        font-family: 'Satisfy', cursive;
+      }
+      input{
+        font-family: 'Oswald', sans-serif;
+      }
+      .nabvar{
+        background-color: #fff;
+        /* cursor: pointer; */
+      }
+      .todo{
+        font-size: 50px;
+        color: #D2D3C9;
+        cursor: pointer;
+      }
+      .save-btn{
+        background-color: #F6830F;
+
+      }
+      .save-btn:hover{
+        background-color: #F6830F;
+      }
+      
+      .list-group-item{
+        background-color: #D2D3C9;
+        font-family: 'Oswald', sans-serif;
+
+      }
+    </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
